@@ -1,0 +1,7 @@
+{
+  "name": "Windows-RDP",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "windows",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "postStartCommand": "bash start.sh"
+}
